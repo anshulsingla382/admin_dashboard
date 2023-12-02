@@ -1,0 +1,77 @@
+/* UserManagement.css */
+
+.user-management-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Poppins', Arial, sans-serif; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .selected-row {
+    background-color: #ddd;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="text"] {
+    margin-right: 5px;
+    padding: 8px;
+  }
+  
+  .search-icon {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit, .save, .cancel {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .delete {
+    background-color: #FF0000;
+    color: white;
+  }
+  
+  .delete-selected {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Add animation to buttons */
+  button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
